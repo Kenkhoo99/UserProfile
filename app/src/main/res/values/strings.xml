@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">UserProfile</string>
+    <string name="desc">Profile Picture</string>
+    <string name="chg_pic">Change Picture</string>
+    <string name="settings">Account Settings: </string>
+    <string name="personal">Personal Info</string>
+    <string name="account">Account Info</string>
+</resources>
