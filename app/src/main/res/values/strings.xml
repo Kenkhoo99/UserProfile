@@ -5,4 +5,20 @@
     <string name="settings">Account Settings: </string>
     <string name="personal">Personal Info</string>
     <string name="account">Account Info</string>
+    <string name="personal_info">Personal Info: </string>
+    <string name="user_name">Name:</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="user_birthday">Birthday:</string>
+    <string name="birthday">DD-MM-YYYY</string>
+    <string name="user_address">Address:</string>
+    <string name="street">Street Address</string>
+    <string name="city">City</string>
+    <string name="state">State</string>
+    <string name="zip">Zip/Postal Code</string>
+    <string name="country">Country</string>
+    <string name="institution_name">Institution Name: </string>
+    <string name="ins_name">Name of your current institution</string>
+    <string name="update">Update Personal Info</string>
+    <string name="warning">By clicking "Update Personal Info", I acknowledge that all information submitted above is factually correct</string>
 </resources>
