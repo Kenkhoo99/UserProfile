@@ -21,4 +21,16 @@
     <string name="ins_name">Name of your current institution</string>
     <string name="update">Update Personal Info</string>
     <string name="warning">By clicking "Update Personal Info", I acknowledge that all information submitted above is factually correct</string>
+    <string name="email_address_info">Email Address:</string>
+    <string name="email_address_current">Current Email</string>
+    <string name="current_email">Current:</string>
+    <string name="new_email_text">Enter new email address</string>
+    <string name="new_email">New:</string>
+    <string name="password_info">Password:</string>
+    <string name="password_current">Current Password</string>
+    <string name="password_new">New Password</string>
+    <string name="password_new_confirm">Confirm New Password</string>
+    <string name="update_account">Update Account Info</string>
+    <string name="warning_acc">Note:When you change your email or password,a confirmation email will be send to you.If there are any problems,please email us at</string>
+    <string name="genius_email">geniuslearningapp@gmail.com</string>
 </resources>
