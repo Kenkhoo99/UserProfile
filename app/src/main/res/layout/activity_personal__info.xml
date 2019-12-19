@@ -219,7 +219,7 @@
             app:layout_constraintTop_toBottomOf="@+id/institution" />
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/button_personal"
             android:layout_width="0dp"
             android:layout_height="35dp"
             android:layout_marginStart="24dp"
@@ -235,7 +235,7 @@
             app:layout_constraintTop_toBottomOf="@+id/ins_name" />
 
         <TextView
-            android:id="@+id/textView"
+            android:id="@+id/acknowledge"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
@@ -246,7 +246,7 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/button" />
+            app:layout_constraintTop_toBottomOf="@+id/button_personal" />
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>

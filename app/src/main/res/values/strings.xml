@@ -31,6 +31,7 @@
     <string name="password_new">New Password</string>
     <string name="password_new_confirm">Confirm New Password</string>
     <string name="update_account">Update Account Info</string>
-    <string name="warning_acc">Note:When you change your email or password,a confirmation email will be send to you.If there are any problems,please email us at</string>
-    <string name="genius_email">geniuslearningapp@gmail.com</string>
+    <string name="warning_acc">Note:When you change your email or password,a confirmation email will be send to you.If there are any problems,please email us at
+                               <font fgcolor="#173172"><u>geniuslearningapp@gmail.com</u></font></string>
+
 </resources>
