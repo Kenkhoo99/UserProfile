@@ -14,9 +14,9 @@
             android:id="@+id/personal_info"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginStart="16dp"
+            android:layout_marginStart="12dp"
             android:layout_marginTop="20dp"
-            android:layout_marginEnd="16dp"
+            android:layout_marginEnd="12dp"
             android:fontFamily="@font/source_sans_pro"
             android:text="@string/personal_info"
             android:textSize="20sp"
@@ -28,9 +28,9 @@
             android:id="@+id/user_name"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_marginStart="16dp"
-            android:layout_marginTop="10dp"
-            android:layout_marginEnd="16dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="12dp"
             android:fontFamily="@font/source_sans_pro"
             android:text="@string/user_name"
             android:textSize="18sp"
@@ -49,6 +49,7 @@
             android:fontFamily="@font/source_sans_pro"
             android:hint="@string/first_name"
             android:inputType="textPersonName"
+            android:textSize="16sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/user_name" />
@@ -64,6 +65,7 @@
             android:fontFamily="@font/source_sans_pro"
             android:hint="@string/last_name"
             android:inputType="textPersonName"
+            android:textSize="16sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
@@ -73,9 +75,9 @@
             android:id="@+id/user_birthday"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_marginStart="16dp"
-            android:layout_marginTop="10dp"
-            android:layout_marginEnd="16dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="12dp"
             android:fontFamily="@font/source_sans_pro"
             android:text="@string/user_birthday"
             android:textSize="18sp"
@@ -94,6 +96,7 @@
             android:fontFamily="@font/source_sans_pro"
             android:hint="@string/birthday"
             android:inputType="date"
+            android:textSize="16sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/user_birthday" />
@@ -102,9 +105,9 @@
             android:id="@+id/user_address"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_marginStart="16dp"
-            android:layout_marginTop="10dp"
-            android:layout_marginEnd="16dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="12dp"
             android:fontFamily="@font/source_sans_pro"
             android:text="@string/user_address"
             android:textSize="18sp"
@@ -123,6 +126,7 @@
             android:fontFamily="@font/source_sans_pro"
             android:hint="@string/street"
             android:inputType="textPostalAddress"
+            android:textSize="16sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/user_address" />
@@ -138,6 +142,7 @@
             android:fontFamily="@font/source_sans_pro"
             android:hint="@string/city"
             android:inputType="text"
+            android:textSize="16sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/address" />
@@ -153,6 +158,7 @@
             android:fontFamily="@font/source_sans_pro"
             android:hint="@string/state"
             android:inputType="text"
+            android:textSize="16sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/city" />
@@ -168,40 +174,39 @@
             android:fontFamily="@font/source_sans_pro"
             android:hint="@string/zip"
             android:inputType="number"
+            android:textSize="16sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/state" />
 
         <!-- country dropdown list-->
-
-        <EditText
-            android:id="@+id/country"
+        <Spinner
+            android:id="@+id/spinner_country"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
             android:layout_marginStart="16dp"
             android:layout_marginTop="10dp"
             android:layout_marginEnd="16dp"
-            android:ems="10"
-            android:fontFamily="@font/source_sans_pro"
-            android:hint="@string/country"
-            android:inputType="number"
+            android:entries="@array/city_list"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/zip" />
+
 
         <TextView
             android:id="@+id/institution"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_marginStart="16dp"
-            android:layout_marginTop="10dp"
-            android:layout_marginEnd="16dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="12dp"
             android:fontFamily="@font/source_sans_pro"
             android:text="@string/institution_name"
             android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/country" />
+            app:layout_constraintTop_toBottomOf="@+id/spinner_country" />
 
         <EditText
             android:id="@+id/ins_name"
@@ -214,6 +219,7 @@
             android:fontFamily="@font/source_sans_pro"
             android:hint="@string/institution_name"
             android:inputType="text"
+            android:textSize="16sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/institution" />
@@ -223,7 +229,7 @@
             android:layout_width="0dp"
             android:layout_height="35dp"
             android:layout_marginStart="24dp"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="20dp"
             android:layout_marginEnd="24dp"
             android:background="#C4C4C4"
             android:fontFamily="@font/roboto_light"
